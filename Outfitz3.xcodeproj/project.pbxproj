@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D57E75602C6599F200F12B36 /* Outfitz3logo.webp in Resources */ = {isa = PBXBuildFile; fileRef = D57E755F2C6599F200F12B36 /* Outfitz3logo.webp */; };
 		D57E75622C6C41FA00F12B36 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E75612C6C41F900F12B36 /* HomeView.swift */; };
-		D5E1F8662CA09C570006F140 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5E1F8652CA09C570006F140 /* Config.plist */; };
 		D5EC40822C5D0D7D000EF1C9 /* Outfitz3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC40812C5D0D7D000EF1C9 /* Outfitz3App.swift */; };
 		D5EC40842C5D0D7D000EF1C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC40832C5D0D7D000EF1C9 /* ContentView.swift */; };
 		D5EC40862C5D0D7E000EF1C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EC40852C5D0D7E000EF1C9 /* Assets.xcassets */; };
@@ -51,8 +50,6 @@
 /* Begin PBXFileReference section */
 		D57E755F2C6599F200F12B36 /* Outfitz3logo.webp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Outfitz3logo.webp; sourceTree = "<group>"; };
 		D57E75612C6C41F900F12B36 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		D5E1F8642CA09C570006F140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Config.plist; sourceTree = "<group>"; };
-		D5E1F8672CA09C5A0006F140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Config.plist; sourceTree = "<group>"; };
 		D5EC407E2C5D0D7D000EF1C9 /* Outfitz3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outfitz3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EC40812C5D0D7D000EF1C9 /* Outfitz3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfitz3App.swift; sourceTree = "<group>"; };
 		D5EC40832C5D0D7D000EF1C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,7 +130,6 @@
 				D5EC40AD2C5D84F4000EF1C9 /* CustomButtonStyle.swift */,
 				D5EC40B12C5D8550000EF1C9 /* OnboardingView.swift */,
 				D5EC40BF2C5FDA97000EF1C9 /* LoadingView.swift */,
-				D5E1F8652CA09C570006F140 /* Config.plist */,
 				D5EC40C12C5FDB07000EF1C9 /* EventPicker.swift */,
 				D5EC40C52C5FDB3F000EF1C9 /* MainClothingPiecePicker.swift */,
 				D57E75612C6C41F900F12B36 /* HomeView.swift */,
@@ -280,7 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5E1F8662CA09C570006F140 /* Config.plist in Resources */,
 				D5EC40892C5D0D7E000EF1C9 /* Preview Assets.xcassets in Resources */,
 				D57E75602C6599F200F12B36 /* Outfitz3logo.webp in Resources */,
 				D5EC40862C5D0D7E000EF1C9 /* Assets.xcassets in Resources */,
@@ -357,18 +352,6 @@
 			targetProxy = D5EC40992C5D0D7F000EF1C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D5E1F8652CA09C570006F140 /* Config.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5E1F8642CA09C570006F140 /* Base */,
-				D5E1F8672CA09C5A0006F140 /* en */,
-			);
-			name = Config.plist;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D5EC40A02C5D0D7F000EF1C9 /* Debug */ = {
